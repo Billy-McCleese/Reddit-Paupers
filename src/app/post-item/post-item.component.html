@@ -1,0 +1,6 @@
+<div class="post-item">
+  <h3>{{ post.data.title }}</h3>
+  <a [href]="'https://www.reddit.com' + post.data.permalink" target="_blank">
+    <img [src]="post.data.url_overridden_by_dest" alt="Post Image" />
+  </a>
+</div>
